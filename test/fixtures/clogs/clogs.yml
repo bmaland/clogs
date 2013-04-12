@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  controller: MyString
+  path: MyString
+  status: 1
+  view_runtime: 1.5
+  db_runtime: 1.5
+
+two:
+  controller: MyString
+  path: MyString
+  status: 1
+  view_runtime: 1.5
+  db_runtime: 1.5

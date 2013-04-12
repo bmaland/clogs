@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Controller:</b>
+  <%= @clog.controller %>
+</p>
+
+<p>
+  <b>Path:</b>
+  <%= @clog.path %>
+</p>
+
+<p>
+  <b>Status:</b>
+  <%= @clog.status %>
+</p>
+
+<p>
+  <b>View runtime:</b>
+  <%= @clog.view_runtime %>
+</p>
+
+<p>
+  <b>Db runtime:</b>
+  <%= @clog.db_runtime %>
+</p>
+
+
+<%= link_to 'Edit', edit_clog_path(@clog) %> |
+<%= link_to 'Back', clogs_path %>

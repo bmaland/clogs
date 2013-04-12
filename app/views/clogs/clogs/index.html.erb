@@ -1,0 +1,31 @@
+<h1>Listing clogs</h1>
+
+<table>
+  <tr>
+    <th>Controller</th>
+    <th>Path</th>
+    <th>Status</th>
+    <th>View runtime</th>
+    <th>Db runtime</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @clogs.each do |clog| %>
+  <tr>
+    <td><%= clog.controller %></td>
+    <td><%= clog.path %></td>
+    <td><%= clog.status %></td>
+    <td><%= clog.view_runtime %></td>
+    <td><%= clog.db_runtime %></td>
+    <td><%= link_to 'Show', clog %></td>
+    <td><%= link_to 'Edit', edit_clog_path(clog) %></td>
+    <td><%= link_to 'Destroy', clog, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Clog', new_clog_path %>

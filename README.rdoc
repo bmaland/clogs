@@ -1,0 +1,5 @@
+= Clogs
+
+Sample engine for a workshop on
+[Maintainable Ruby on Rails](https://github.com/bmaland/kds_rails_ws).
+
